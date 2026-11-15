@@ -1,0 +1,31 @@
+Reference,Value as supplied,Footprint
+1k1,R3,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+1k2,R4,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+1k3,R5,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+10k1,R_Variable,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical
+10k2,R_Variable,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical
+10k3,R_Variable,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical
+10k4,R2,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+10k5,R1,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+C1,10 µF,Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm
+C2,10 µF,Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm
+C3,10 µF,Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm
+C4,10 µF,Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm
+C5,10 µF,Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm
+C6,10 µF,Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm
+C7,220 µF,Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm
+D1,D2,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal
+D2,LED,LED_THT:LED_D5.0mm
+D3,D1,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal
+D4,LED,LED_THT:LED_D5.0mm
+D5,LED,LED_THT:LED_D5.0mm
+D6,LED,LED_THT:LED_D5.0mm
+D7,LED,LED_THT:LED_D5.0mm
+D8,D3,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal
+D9,LED,LED_THT:LED_D5.0mm
+D10,LED,LED_THT:LED_D5.0mm
+D11,LED,LED_THT:LED_D5.0mm
+LS1,Speaker,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+U1,74HC595,Package_DIP:DIP-16_W7.62mm
+U2,74HC14,Package_DIP:DIP-14_W7.62mm
+U3,LM386,Package_DIP:DIP-8_W7.62mm
