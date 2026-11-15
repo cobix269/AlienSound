@@ -12,8 +12,6 @@
 
 The documentation follows the build from **breadboard exploration → soldered circuit → extended PCB version**. The breadboard media and KiCad files are available now. The hand-drawn circuit, oscilloscope captures, TinkerCAD exports and soldered-build evidence will complete the record as they become available.
 
-> **Current status:** this is an evolving project portfolio. The supplied KiCad design is preserved as received; its presence does not establish that the PCB has been manufactured or validated. Missing evidence is identified below.
-
 ## Watch & listen
 
 ### Controls in action
