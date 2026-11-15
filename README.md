@@ -110,11 +110,11 @@ This is a structural reading of the supplied schematic, not a statement that eve
 
 The layout uses real component footprints. The trimmer footprints in the PCB are different from the large rotary potentiometers visible in the breadboard photos; the final component choice and mechanical fit therefore need confirmation.
 
-### Second version & new functionality
+### Version 2 development
 
-The supplied KiCad project is collected here for the **extended PCB version** required by the assignment. It includes an eight-LED output section and three diode-connected adjustable branches.
+The supplied KiCad project includes an eight-LED output section and three diode-connected adjustable branches. Its schematic and physical layout are available above.
 
-**The specific feature added relative to the soldered version still needs to be confirmed by the project authors.** Until the original soldered circuit and its schematic are available, this repository does not label an existing feature as a new one. The final comparison will describe the original behaviour, the added function, the circuit change and a demonstration of the result.
+**The version 2 comparison is to be completed.** This section is reserved for the baseline soldered circuit, the version 2 feature description, the corresponding circuit changes and demonstration.
 
 ## Documentation checklist
 
@@ -129,7 +129,7 @@ The supplied KiCad project is collected here for the **extended PCB version** re
 | Completed soldered circuit photographs | Pending |
 | Proof that the soldered circuit functions | Pending |
 | KiCad schematic and physical board layout | Included — editable source files and SVG previews |
-| Explanation of the novel functionality in version 2 | Pending author confirmation and comparison |
+| Explanation of the novel functionality in version 2 | To be completed |
 
 ## Repository map
 
