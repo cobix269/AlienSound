@@ -92,6 +92,18 @@ The source design contains three main ICs:
 
 This is a structural reading of the supplied schematic, not a statement that every connection has been electrically validated. The [design notes](docs/design-notes.md) record specific points to review before fabrication.
 
+### 3D board previews
+
+These KiCad 3D views show the component placement and overall appearance of the designed PCB.
+
+**Top view**
+
+![KiCad 3D top view showing the eight LEDs, integrated circuits, capacitors and three trimmers](docs/exports/pcb-3d-top.png)
+
+**Perspective view**
+
+![KiCad 3D perspective view showing the PCB and through-hole component arrangement](docs/exports/pcb-3d-perspective.png)
+
 ### Physical layout
 
 [![Routed PCB layout with copper, component markings and board outline](docs/exports/pcb-layout.svg)](docs/exports/pcb-layout.svg)
