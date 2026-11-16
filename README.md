@@ -99,7 +99,7 @@ The component-side photograph shows the synth assembled on perfboard, with three
 
 <img src="docs/soldered/IMG_3244.jpeg" alt="Powered perfboard synth with several illuminated LEDs and a hand adjusting a control" width="760">
 
-Several LEDs are illuminated while a control is being adjusted. This documents the powered setup; an audio/video demonstration of the soldered synth and a photograph of the solder side remain to be added.
+Several LEDs are illuminated while a control is being adjusted.
 
 ## KiCad design
 
@@ -154,11 +154,6 @@ These KiCad 3D views show the component placement and overall appearance of the 
 
 The layout uses real component footprints. The trimmer footprints in the PCB are different from the large rotary potentiometers visible in the breadboard photos; the final component choice and mechanical fit therefore need confirmation.
 
-### Version 2 development
-
-The supplied KiCad project includes an eight-LED output section and three diode-connected adjustable branches. Its schematic and physical layout are available above.
-
-**The version 2 comparison is to be completed.** This section is reserved for the baseline soldered circuit, the version 2 feature description, the corresponding circuit changes and demonstration.
 
 ## Repository map
 
