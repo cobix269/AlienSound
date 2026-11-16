@@ -61,11 +61,11 @@ A closer view records the integrated circuit and capacitor area. Component value
 
 For each oscilloscope capture, the final documentation should identify the circuit version, probe point, volts/division, time/division and control setting. No measured frequency or amplitude is claimed without those measurements.
 
+
 ### Hand-drawn circuit
 
 [![Hand-drawn schematic of the AlienSound circuit: five 74HC14 relaxation oscillators, a 74HC595 with LEDs, and an LM386 audio stage](docs/hand-drawn/Hand-drawn.jpeg)](docs/hand-drawn/Hand-drawn.jpeg)
 
-*Hand-drawn schematic by Zoé, Raphaël and Clarisse (breadboard version 1).*
 
 The drawing shows three blocks:
 
