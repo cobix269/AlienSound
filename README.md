@@ -67,7 +67,7 @@ The breadboard diagram documents the simulated wiring and component arrangement.
 
 **[▶ Watch the TinkerCAD test video](docs/tinkercad/Tinkercad_test595.mp4)**
 
-The supplied simulation recording is separate from the recordings of the physical breadboard. Download the MP4 if it does not play in the GitHub viewer. The generated TinkerCAD schematic is still to be added.
+The supplied simulation recording is separate from the recordings of the physical breadboard. Download the MP4 if it does not play in the GitHub viewer.
 
 ### Hand-drawn circuit
 
