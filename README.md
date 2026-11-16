@@ -53,7 +53,7 @@ A closer view records the integrated circuit and capacitor area. Component value
 
 | Document | Status | Location |
 | --- | --- | --- |
-| Hand-drawn circuit diagram | Awaiting upload | [Hand-drawn circuit folder](docs/hand-drawn/) |
+| Hand-drawn circuit diagram | Included | [Hand-drawn circuit](docs/hand-drawn/Hand-drawn.jpeg) |
 | Oscilloscope screenshots | Awaiting upload | [Oscilloscope folder](docs/oscilloscope/) |
 | TinkerCAD breadboard diagram | Awaiting upload | [TinkerCAD folder](docs/tinkercad/) |
 | TinkerCAD generated schematic | Awaiting upload | [TinkerCAD folder](docs/tinkercad/) |
