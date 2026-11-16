@@ -29,7 +29,7 @@ The audio files are the original AAC tracks extracted from the supplied videos, 
 
 ## Breadboard experiments
 
-The photographs document two visible arrangements: a compact setup with a light-dependent resistor, LED and speaker, and a longer breadboard with several rotary controls. The breadboard arrangements may differ slightly from the diagrams below. »
+The photographs document two visible arrangements: a compact setup with a light-dependent resistor, LED and speaker, and a longer breadboard with several rotary controls. The breadboard arrangements may differ slightly from the diagrams below.
 
 ### 01 · Compact prototype
 
