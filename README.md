@@ -10,7 +10,7 @@
 
 **AlienSound** explores electronic sound through physical circuits, adjustable controls and visible LED activity. This repository brings together photographs of the prototypes, recordings of the breadboard experiments, and the editable KiCad schematic and PCB layout.
 
-The documentation follows the build from **breadboard exploration → soldered circuit → extended PCB version**. The breadboard media, hand-drawn schematic, TinkerCAD breadboard diagram and simulation video, soldered-build photographs, and KiCad files are available below. Oscilloscope captures, the TinkerCAD generated schematic and an audio/video demonstration of the soldered synth remain to be added.
+The documentation follows the build from **breadboard exploration → soldered circuit → extended PCB version**. The breadboard media, hand-drawn schematic, TinkerCAD breadboard diagram and simulation video, soldered-build photographs, and KiCad files are available below. 
 
 ## Watch & listen
 
