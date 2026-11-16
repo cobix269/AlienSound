@@ -54,10 +54,8 @@ A closer view records the integrated circuit and capacitor area. Component value
 | Document | Status | Location |
 | --- | --- | --- |
 | Hand-drawn circuit diagram | Included | [Hand-drawn circuit](docs/hand-drawn/Hand-drawn.jpeg) |
-| Oscilloscope screenshots | Awaiting upload | [Oscilloscope folder](docs/oscilloscope/) |
 | TinkerCAD breadboard diagram | Included | [Breadboard diagram](docs/tinkercad/breadboard.png) |
 | TinkerCAD simulation video | Included | [Watch simulation](docs/tinkercad/Tinkercad_test595.mp4) |
-| TinkerCAD generated schematic | Awaiting upload | [TinkerCAD folder](docs/tinkercad/) |
 | KiCad schematic | Included | [Editable schematic](hardware/kicad/AlienSound.kicad_sch) · [SVG preview](docs/exports/AlienSound.svg) |
 
 For each oscilloscope capture, the final documentation should identify the circuit version, probe point, volts/division, time/division and control setting. No measured frequency or amplitude is claimed without those measurements.
