@@ -61,6 +61,25 @@ A closer view records the integrated circuit and capacitor area. Component value
 
 For each oscilloscope capture, the final documentation should identify the circuit version, probe point, volts/division, time/division and control setting. No measured frequency or amplitude is claimed without those measurements.
 
+### Hand-drawn circuit
+
+[![Hand-drawn schematic of the AlienSound circuit: five 74HC14 relaxation oscillators, a 74HC595 with LEDs, and an LM386 audio stage](docs/hand-drawn/hand-drawn-circuit-v1.jpg)](docs/hand-drawn/hand-drawn-circuit-v1.jpg)
+
+*Hand-drawn schematic by Zoé, Raphaël and Clarisse (breadboard version 1).*
+
+The drawing shows three blocks:
+
+- **Clock and data oscillators (top right):** two 74HC14 Schmitt-trigger inverters (pins 1→2 and 3→4),
+  each set up as a relaxation oscillator with a 10 kΩ potentiometer in the feedback path and a 10 µF
+  capacitor to ground. One output goes to the SER input of the 74HC595, the other to its clock
+  inputs (SRCLK and RCLK, tied together). OE is grounded and SRCLR is held at 5 V.
+- **LED register (centre):** the 74HC595 drives LEDs to ground from its outputs. Three outputs
+  are also connected through diodes to the inputs of the audio oscillators below.
+- **Audio oscillators and amplifier (bottom):** three more 74HC14 inverters (pins 11→10, 13→12, 9→8),
+  each again an RC oscillator with a 10 kΩ potentiometer and a 10 µF capacitor. Their outputs are mixed
+  through three 1 kΩ resistors, passed through a 10 µF coupling capacitor to the LM386 (5 V supply),
+  and sent to the speaker through a 22 µF capacitor.
+
 ## Soldered synth
 
 **Photographs and proof of operation are still to be added.** The current gallery shows solderless breadboards and is not presented as evidence of a completed soldered circuit.
