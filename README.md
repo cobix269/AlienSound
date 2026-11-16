@@ -2,7 +2,7 @@
 
 <p align="center"><strong>A hands-on audio synth project, from breadboard experiments to a custom PCB.</strong><br>By Clarisse, Raphael &amp; Zoé</p>
 
-<p align="center"><a href="#watch--listen">Watch &amp; listen</a> · <a href="#breadboard-experiments">Breadboard gallery</a> · <a href="#kicad-design">KiCad design</a> · <a href="#documentation-checklist">Documentation checklist</a></p>
+<p align="center"><a href="#watch--listen">Watch &amp; listen</a> · <a href="#breadboard-experiments">Breadboard gallery</a> · <a href="#kicad-design">KiCad design</a></p>
 
 ---
 
@@ -160,22 +160,6 @@ The supplied KiCad project includes an eight-LED output section and three diode-
 
 **The version 2 comparison is to be completed.** This section is reserved for the baseline soldered circuit, the version 2 feature description, the corresponding circuit changes and demonstration.
 
-## Documentation checklist
-
-| Required evidence | Progress |
-| --- | --- |
-| Breadboard photographs | Included — 3 photographs |
-| Breadboard video / GIF documentation | Included — 3 videos and 1 animated excerpt |
-| Audio recordings | Included — 3 audio tracks extracted from the videos |
-| Hand-drawn circuit | Included — photographed schematic |
-| Oscilloscope screenshots | Pending |
-| TinkerCAD breadboard diagram and simulation video | Included |
-| TinkerCAD generated schematic | Pending |
-| Completed soldered circuit photographs | Included — assembly and powered setup; solder-side view pending |
-| Proof that the soldered circuit functions | Illuminated LEDs photographed; audio/video demonstration pending |
-| KiCad schematic and physical board layout | Included — editable source files and SVG previews |
-| Explanation of the novel functionality in version 2 | To be completed |
-
 ## Repository map
 
 ```text
@@ -192,16 +176,10 @@ AlienSound/
 └── docs/
     ├── exports/        KiCad schematic, PCB preview and title graphic
     ├── hand-drawn/     Hand-drawn circuit documentation
-    ├── oscilloscope/   Measurement captures
+    ├── soldered/       Assembly photographs and operating proof
     ├── tinkercad/      Breadboard diagram and simulation video
-    ├── soldered/      Assembly photographs and operating proof
-    ├── design-notes.md
-    └── media-index.md  Source filenames and preparation notes
+    └── design-notes.md
 ```
-
-## Adding the remaining documentation
-
-Place each new file in its matching folder, replace the corresponding “Pending” entry with a link, and add a caption explaining what the image or recording demonstrates. Keep the original breadboard, soldered version and extended PCB version clearly identified so that the development of the instrument can be followed.
 
 ---
 
