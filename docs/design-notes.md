@@ -27,4 +27,4 @@ These are observations from the provided source, not modifications to it. The ph
 - PCB SVG export: successful with KiCad CLI 10.0.6.
 - Netlist export and source inspection: successful.
 - Automated PCB DRC: the CLI terminated without producing a report in this environment. **No passing DRC or ERC result is claimed.** Run both checks in KiCad and resolve the relevant findings before fabrication.
-- No manufactured-PCB or soldered-circuit test evidence has been supplied yet.
+- Soldered perfboard assembly and powered-LED photographs are included in `docs/soldered/`. No manufactured-PCB test or soldered-synth audio/video demonstration is included yet.

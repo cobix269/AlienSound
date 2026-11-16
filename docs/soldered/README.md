@@ -1,5 +1,11 @@
 # Soldered synth
 
-**Status: awaiting project documentation.**
+## Assembly
 
-Add photographs of both sides of the soldered circuit and a video with audio showing it operating. Identify which circuit version was built.
+![Assembled perfboard synth](IMG_3243.jpeg)
+
+## Powered setup
+
+![Powered synth with illuminated LEDs](IMG_3244.jpeg)
+
+Solder-side photograph and audio/video demonstration: pending.

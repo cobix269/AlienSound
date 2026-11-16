@@ -10,7 +10,7 @@
 
 **AlienSound** explores electronic sound through physical circuits, adjustable controls and visible LED activity. This repository brings together photographs of the prototypes, recordings of the breadboard experiments, and the editable KiCad schematic and PCB layout.
 
-The documentation follows the build from **breadboard exploration → soldered circuit → extended PCB version**. The breadboard media and KiCad files are available now. The hand-drawn circuit, oscilloscope captures, TinkerCAD exports and soldered-build evidence will complete the record as they become available.
+The documentation follows the build from **breadboard exploration → soldered circuit → extended PCB version**. The breadboard media, hand-drawn schematic, TinkerCAD breadboard diagram and simulation video, soldered-build photographs, and KiCad files are available below. Oscilloscope captures, the TinkerCAD generated schematic and an audio/video demonstration of the soldered synth remain to be added.
 
 ## Watch & listen
 
@@ -29,7 +29,7 @@ The audio files are the original AAC tracks extracted from the supplied videos, 
 
 ## Breadboard experiments
 
-The photographs document two visible arrangements: a compact setup with a light-dependent resistor, LED and speaker, and a longer breadboard with several rotary controls. The exact circuit revision associated with each recording remains to be matched to the forthcoming hand-drawn and TinkerCAD diagrams.
+The photographs document two visible arrangements: a compact setup with a light-dependent resistor, LED and speaker, and a longer breadboard with several rotary controls. The exact circuit revision associated with each recording remains to be matched to the hand-drawn and TinkerCAD diagrams below.
 
 ### 01 · Compact prototype
 
@@ -47,7 +47,7 @@ The larger prototype exposes multiple potentiometers for hands-on adjustment. Th
 
 <img src="media/photos/IMG_2963.jpg" alt="Close view of a breadboard integrated circuit, electrolytic capacitors, jumper wires and a potentiometer" width="760">
 
-A closer view records the integrated circuit and capacitor area. Component values and connections should be read from the design files and forthcoming circuit diagrams, rather than inferred from the photograph alone.
+A closer view records the integrated circuit and capacitor area. Component values and connections should be read from the design files and circuit diagrams, rather than inferred from the photograph alone.
 
 ## Circuit documentation
 
@@ -55,12 +55,23 @@ A closer view records the integrated circuit and capacitor area. Component value
 | --- | --- | --- |
 | Hand-drawn circuit diagram | Included | [Hand-drawn circuit](docs/hand-drawn/Hand-drawn.jpeg) |
 | Oscilloscope screenshots | Awaiting upload | [Oscilloscope folder](docs/oscilloscope/) |
-| TinkerCAD breadboard diagram | Awaiting upload | [TinkerCAD folder](docs/tinkercad/) |
+| TinkerCAD breadboard diagram | Included | [Breadboard diagram](docs/tinkercad/breadboard.png) |
+| TinkerCAD simulation video | Included | [Watch simulation](docs/tinkercad/Tinkercad_test595.mp4) |
 | TinkerCAD generated schematic | Awaiting upload | [TinkerCAD folder](docs/tinkercad/) |
 | KiCad schematic | Included | [Editable schematic](hardware/kicad/AlienSound.kicad_sch) · [SVG preview](docs/exports/AlienSound.svg) |
 
 For each oscilloscope capture, the final documentation should identify the circuit version, probe point, volts/division, time/division and control setting. No measured frequency or amplitude is claimed without those measurements.
 
+
+### TinkerCAD simulation
+
+[![TinkerCAD breadboard circuit with LEDs, potentiometers and speaker](docs/tinkercad/breadboard.png)](docs/tinkercad/breadboard.png)
+
+The breadboard diagram documents the simulated wiring and component arrangement.
+
+**[▶ Watch the TinkerCAD test video](docs/tinkercad/Tinkercad_test595.mp4)**
+
+The supplied simulation recording is separate from the recordings of the physical breadboard. Download the MP4 if it does not play in the GitHub viewer. The generated TinkerCAD schematic is still to be added.
 
 ### Hand-drawn circuit
 
@@ -82,9 +93,17 @@ The drawing shows three blocks:
 
 ## Soldered synth
 
-**Photographs and proof of operation are still to be added.** The current gallery shows solderless breadboards and is not presented as evidence of a completed soldered circuit.
+### Assembled circuit
 
-The final entry will include the component side, the solder side and a recording that shows the assembled circuit operating while its controls are adjusted. See the [soldered-build documentation](docs/soldered/).
+<img src="docs/soldered/IMG_3243.jpeg" alt="Soldered synth on perfboard with three potentiometers, integrated circuits and LEDs, alongside a speaker and Arduino board" width="760">
+
+The component-side photograph shows the synth assembled on perfboard, with three rotary controls and a row of LEDs.
+
+### Powered setup
+
+<img src="docs/soldered/IMG_3244.jpeg" alt="Powered perfboard synth with several illuminated LEDs and a hand adjusting a control" width="760">
+
+Several LEDs are illuminated while a control is being adjusted. This documents the powered setup; an audio/video demonstration of the soldered synth and a photograph of the solder side remain to be added.
 
 ## KiCad design
 
@@ -152,11 +171,12 @@ The supplied KiCad project includes an eight-LED output section and three diode-
 | Breadboard photographs | Included — 3 photographs |
 | Breadboard video / GIF documentation | Included — 3 videos and 1 animated excerpt |
 | Audio recordings | Included — 3 audio tracks extracted from the videos |
-| Hand-drawn circuit | Pending |
+| Hand-drawn circuit | Included — photographed schematic |
 | Oscilloscope screenshots | Pending |
-| TinkerCAD breadboard diagram and generated schematic | Pending |
-| Completed soldered circuit photographs | Pending |
-| Proof that the soldered circuit functions | Pending |
+| TinkerCAD breadboard diagram and simulation video | Included |
+| TinkerCAD generated schematic | Pending |
+| Completed soldered circuit photographs | Included — assembly and powered setup; solder-side view pending |
+| Proof that the soldered circuit functions | Illuminated LEDs photographed; audio/video demonstration pending |
 | KiCad schematic and physical board layout | Included — editable source files and SVG previews |
 | Explanation of the novel functionality in version 2 | To be completed |
 
@@ -177,7 +197,7 @@ AlienSound/
     ├── exports/        KiCad schematic, PCB preview and title graphic
     ├── hand-drawn/     Hand-drawn circuit documentation
     ├── oscilloscope/   Measurement captures
-    ├── tinkercad/      Breadboard diagram and generated schematic
+    ├── tinkercad/      Breadboard diagram and simulation video
     ├── soldered/      Assembly photographs and operating proof
     ├── design-notes.md
     └── media-index.md  Source filenames and preparation notes
