@@ -63,7 +63,7 @@ For each oscilloscope capture, the final documentation should identify the circu
 
 ### Hand-drawn circuit
 
-[![Hand-drawn schematic of the AlienSound circuit: five 74HC14 relaxation oscillators, a 74HC595 with LEDs, and an LM386 audio stage](docs/hand-drawn/hand-drawn-circuit-v1.jpg)](docs/hand-drawn/hand-drawn-circuit-v1.jpg)
+[![Hand-drawn schematic of the AlienSound circuit: five 74HC14 relaxation oscillators, a 74HC595 with LEDs, and an LM386 audio stage](docs/hand-drawn/Hand-drawn.jpeg)](docs/hand-drawn/Hand-drawn.jpeg)
 
 *Hand-drawn schematic by Zoé, Raphaël and Clarisse (breadboard version 1).*
 
@@ -78,7 +78,7 @@ The drawing shows three blocks:
 - **Audio oscillators and amplifier (bottom):** three more 74HC14 inverters (pins 11→10, 13→12, 9→8),
   each again an RC oscillator with a 10 kΩ potentiometer and a 10 µF capacitor. Their outputs are mixed
   through three 1 kΩ resistors, passed through a 10 µF coupling capacitor to the LM386 (5 V supply),
-  and sent to the speaker through a 22 µF capacitor.
+  and sent to the speaker through a 220 µF capacitor.
 
 ## Soldered synth
 
